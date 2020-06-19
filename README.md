@@ -5,7 +5,7 @@ easyappointments-mu is a heavily modified fork of alextselegidis/easyappointment
 multiuser version of the application.
 
 ```diff
-- Warning: The application is still an early alpha version. Do not use in production unless you know what you are doing! - 
+- Warning: The application is still an early alpha version. Do not use in production unless you know what you are doing! -
 ```
 
 ## Installation
@@ -73,6 +73,6 @@ The multiuser definition can be done in two ways by
 1. Using one Database with different Table Prefixes for each hostname
 2. Using a different Database with every hostname
 
-After added the .env File simply point your Web Server Configuration to the easyappointments-mu directory.
+After added the .env File simply point your Web Server Configuration to the easyappointments-mu /src directory.
 
 More Information can be found within the original Project or in the source code.
