@@ -34,10 +34,5 @@
     },
     "config": {
         "process-timeout" : 0
-    },
-    "scripts": {
-      "sync": "clear && rsync -rvaz --delete --exclude=error.log --exclude=storage --exclude=test --exclude=.git ../easyappointments-mu/* dev.kuvvu.ch:/opt/easyappointments-mu/",
-      "watch": "onchange -v -d 10000 '**/*'  -- composer sync",
-      "test": "test/test"
     }
 }
