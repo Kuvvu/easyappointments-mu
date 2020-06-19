@@ -27,7 +27,7 @@ easyappointments-mu will be configured by .env files for each customer host it w
 For example if your url will be https://meet.kuvvu.ch your .env file will be .meet.kuvvu.ch and needs to
 be located in /storage/mu/
 
-So copy the .env.example to /storage/mu/.HOSTNAME and fill out the file accordingly
+Copy the .env.example to /storage/mu/.HOSTNAME and fill out the file accordingly
 ```
 PREFIX = Your Preferred Table Prefix
 BASE_URL = The Base Url according to the HOSTNAME (eg https://meet.kuvvu.ch)
