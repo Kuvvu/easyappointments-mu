@@ -4,6 +4,10 @@ easyappointments-mu is a heavily modified fork of alextselegidis/easyappointment
 (https://github.com/alextselegidis/easyappointments) with the goal of creating a
 multiuser version of the application.
 
+```diff
+- Warning: The application is still an early alpha version. Do not use in production unless you know what you are doing!
+```
+
 ## Installation
 
 First clone this repository
