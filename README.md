@@ -63,3 +63,12 @@ SMTP = SMTP Server
 SMTP_USER = SMTP Username
 SMTP_PASS = SMTP Password
 ```
+
+The multiuser definition can be done in two ways by
+
+1. Using one Database with different Table Prefixes for each hostname
+2. Using a different Database with every hostname
+
+After added the .env File simply point your Web Server Configuration to the easyappointments-mu directory.
+
+More Information can be found within the original Project or in the source code.
