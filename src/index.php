@@ -61,6 +61,10 @@
 
  require_once __DIR__ . '/../vendor/autoload.php';
 
+ $dotenv = \Dotenv\Dotenv::createImmutable(__DIR__.'/../storage/mu/' , ".".$_SERVER['HTTP_HOST']);
+ $dotenv->load(true);
+
+
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
@@ -78,9 +82,6 @@
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
-
-  $dotenv = \Dotenv\Dotenv::createImmutable(__DIR__.'/../configs/' , ".".$_SERVER['HTTP_HOST']);
-  $dotenv->load(true);
 
   define('DEBUG_MODE', true);
 	define('ENVIRONMENT', (DEBUG_MODE) ? 'development' : 'production');
