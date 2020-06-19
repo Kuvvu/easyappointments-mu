@@ -17,3 +17,48 @@ then install all php requirements
 ```
 composer install
 ```
+
+## Configuration
+
+easyappointments-mu will be configured by .env files for each customer host it will serve.
+For example if your url will be https://meet.kuvvu.ch your .env file will be .meet.kuvvu.ch and needs to
+be located in /storage/mu/
+
+So copy the .env.example to /storage/mu/.HOSTNAME and fill out the file accordingly
+
+PREFIX = Your Preferred Table Prefix
+BASE_URL = The Base Url according to the HOSTNAME (eg https://meet.kuvvu.ch)
+LANGUAGE = Available Languages are :
+
+'arabic',
+'bulgarian',
+'chinese',
+'danish',
+'dutch',
+'english',
+'finnish',
+'french',
+'german',
+'greek',
+'hindi',
+'hungarian',
+'italian',
+'japanese',
+'luxembourgish',
+'polish',
+'portuguese',
+'romanian',
+'russian',
+'slovak',
+'spanish',
+'turkish'
+
+MYSQL_SERVER = Server IP or Hostname of Mysql Server
+MYSQL_DATABASE = Database Name
+MYSQL_USER = Database User
+MYSQL_PASSWORD = Password
+MYSQL_PORT = Port
+
+SMTP = SMTP Server
+SMTP_USER = SMTP Username
+SMTP_PASS = SMTP Password
