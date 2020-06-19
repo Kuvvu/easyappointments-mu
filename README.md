@@ -4,7 +4,7 @@ easyappointments-mu is a heavily modified fork of [alextselegidis/easyappointmen
 
 ```diff
 - Warning: The application is still an early alpha version.
-  not use in production unless you know what you are doing! -
+- Do not use in production unless you know what you are doing!
 ```
 
 ## Installation
